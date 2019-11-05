@@ -10,3 +10,5 @@ The api named **myapi** runs on port 8000 inside the container while it has been
 The app which calls the api named **minombre** runs on port 8001 inside the container while it has been mapped to the port 70001 inside the host machine.
 
 It is very important to put **127.0.0.1** inside the ALLOWED_HOSTS under settings.py of the api, otherwise it won't be able to send data.
+
+I have used my own custom image as a base for this application.
